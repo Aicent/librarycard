@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ylzinfoi.librarycard" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application >
+        <activity android:name="com.ylzinfo.librarycard.activity.LibraryCardActivity"/>
+        <activity android:name="com.ylzinfo.librarycard.activity.LibraryCardBindActivity"/>
+        <activity android:name="com.ylzinfo.librarycard.activity.LCScanActivity"/>
+    </application>
+
+</manifest>
+
